@@ -18,7 +18,7 @@ pip install --upgrade pip
 clear
 python -c 'import os; import inspect; import tensorflow; print(os.path.dirname(inspect.getfile(tensorflow)))'
 
-# Jupyter ��ġ
+# Jupyter ¼³Ä¡
 yum install python-devel
 yum install libevent-devel
 easy_install gevent
@@ -27,3 +27,5 @@ jupyter notebook
 
 jupyter notebook --generate-config
 vi /root/.jupyter/jupyter_notebook_config.py
+
+yum install python-matplotlib
