@@ -11,6 +11,8 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorf
 pip install --ignore-installed --upgrade $TF_BINARY_URL
 conda install ipython
 pip install jupyter
+yum install gcc
+pip install matplotlib
 source deactivate
 
 jupyter notebook --generate-config (설정 초기화)
